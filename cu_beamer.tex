@@ -1,0 +1,77 @@
+\documentclass[leqno,presentation]{beamer}
+\usepackage[style=numeric,backend=biber]{biblatex}
+
+\addbibresource{citation.bib}
+
+% Beamer Settings
+\usetheme{Madrid}
+
+%%%% U of I Palette %%%
+
+% Old Bold Palette
+\definecolor{uiblue}{RGB}{0,60,125}
+\definecolor{uiorange}{RGB}{244,127,36}
+
+% New Palette
+% \definecolor{uiblue}{RGB}{19,31,51}
+% \definecolor{uiorange}{RGB}{250,99,0}
+
+\setbeamercolor{author in head/foot}{fg=white}
+\setbeamercolor{bibliography entry author}{fg=uiblue}
+\setbeamercolor{bibliography entry location}{fg=uiblue}
+\setbeamercolor{bibliography entry note}{fg=uiblue}
+\setbeamercolor{block title}{bg=uiorange}
+\setbeamercolor{caption name}{fg=uiorange}
+\setbeamercolor{date in head/foot}{fg=white}
+\setbeamercolor{frametitle}{fg=white,bg=uiblue}
+\setbeamercolor{navigation symbols}{fg=uiorange,bg=uiblue}
+\setbeamercolor{palette primary}{bg=uiorange}
+\setbeamercolor{palette secondary}{bg=uiblue}
+\setbeamercolor{palette tertiary}{bg=uiorange}
+\setbeamercolor{section in head/foot}{fg=white,bg=uiorange}
+\setbeamercolor{structure}{fg=uiblue}
+\setbeamercolor{title}{fg=white,bg=uiblue}
+
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{enumerate items}[square]
+\setbeamertemplate{itemize item}[square]
+\setbeamertemplate{itemize subitem}[circle]
+\setbeamercolor{local structure}{fg=uiblue}
+\setbeamertemplate{section in head/foot shaded}[default][70]
+%%% Palette End %%%
+
+\hypersetup{
+	colorlinks,
+	linkcolor={white},
+	urlcolor={uiorange}
+}
+
+% Title Page
+\title[Short Title]{Title}
+\author[Short Author Names]{Author Names}
+\date[Short Date]{Date}
+
+% I-mark Logo
+\institute[Illinois]{\includegraphics{Logos/uiuc_logo.pdf}\\University of Illinois at Urbana-Champaign}
+
+% Sesquicentennial Logo
+% \institute[Illinois]{\includegraphics[width=0.38in, height=0.49in]{Logos/uiuc_logo_150.pdf}\\University of Illinois at Urbana-Champaign}
+
+% Text
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\section{Section Title}
+\begin{frame}{Frame Title}
+	
+\end{frame}
+
+\begin{frame}{Reference}
+	\nocite{*}
+	\printbibliography
+\end{frame}
+
+\end{document}
