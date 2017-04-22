@@ -6,7 +6,7 @@ A University of Illinois themed [Beamer](https://www.ctan.org/pkg/beamer) templa
 ## Palettes and Logos
 University of Illinois has in fact published several versions of the official color palette. The most notable ones are the "old" bold palette (Blue:#003C7D, Orange:#F47F24), which the I-mark logo goes with; and the recent sesquicentennial palette (Blue:#131F33, Orange:#FA6300). The latter features a much darker blue and a brighter orange.
 
-Both palettes are presented in the template. To activate, simply comment/uncomment corresponding lines. The I-mark logo and the sesquicentennial logo (converted from `eps` format) are also included.
+Both palettes are presented in the template. To activate, simply comment/uncomment corresponding lines. The I-mark logo and the sesquicentennial logo (converted from `eps` format) are also included. For more details on palettes and logo downloads, follow the link in reference section.
 
 ## Preview
 ### default Theme
