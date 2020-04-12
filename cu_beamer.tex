@@ -3,29 +3,38 @@
 %%% Beamer Settings %%%
 \usetheme{Madrid}
 
-% Bold Palette
-\usecolortheme{CUbold}
+% Columbia Palette
+\usecolortheme{Columbia}
 
-% Sesquicentennial Palette
+% UI Bold Palette
+% \usecolortheme{CUbold}
+
+% UI Sesquicentennial Palette
 % \usecolortheme{CUacademic}
 
 % Aesthetic Tweaks
+\defbeamertemplate{description item}{align left}{\insertdescriptionitem\hfill}
+\setbeamertemplate{description item}[align left]
 \setbeamertemplate{caption}[numbered]
 \setbeamertemplate{enumerate items}[square]
 \setbeamertemplate{itemize item}[square]
 \setbeamertemplate{itemize subitem}[circle]
 \setbeamertemplate{section in head/foot shaded}[default][70]
+\setbeamerfont{itemize/enumerate subbody}{size=\normalsize}
 
 %%% Title Page %%%
 \title[Short Title]{Title}
 \author[Short Author Names]{Author Names}
 \date[Short Date]{Date}
 
+% Columbia Logo with PMS 285C
+% \institute[Columbia]{\includegraphics[scale=0.12]{Logos/Columbia_Logo-285C.pdf}}
+
 % I-mark Logo
-\institute[Illinois]{\includegraphics{Logos/uiuc_logo.pdf}\\University of Illinois at Urbana-Champaign}
+% \institute[Illinois]{\includegraphics{Logos/uiuc_logo.pdf} \\ University of Illinois at Urbana-Champaign}
 
 % Sesquicentennial Logo
-% \institute[Illinois]{\includegraphics[width=0.38in, height=0.49in]{Logos/uiuc_logo_150.pdf}\\University of Illinois at Urbana-Champaign}
+% \institute[Illinois]{\includegraphics[width=0.38in, height=0.49in]{Logos/uiuc_logo_150.pdf} \\ University of Illinois at Urbana-Champaign}
 
 %%% Text %%%
 \begin{document}
@@ -36,7 +45,14 @@
 
 \section{Section Title}
 \begin{frame}{Frame Title}
+\begin{itemize}
+\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean blandit tortor vel egestas tempus. In sit amet neque in eros volutpat bibendum. Cras sed urna in purus tempus ultrices. Integer at risus sed velit lobortis tristique.
+\item Quisque justo ante, semper auctor feugiat vel, sodales sed tellus. Mauris in dignissim leo. Integer volutpat magna lacinia convallis vulputate. Sed fermentum leo eget magna tristique, ac mattis nunc fermentum. Phasellus et semper nulla, vitae vehicula est. Pellentesque sagittis elit elit, non efficitur ipsum pharetra quis.
+\item Sed diam lacus, molestie a augue in, sagittis lobortis lorem. Fusce lectus nisl, cursus sed tortor nec, tincidunt semper sem. Praesent tempor elit at convallis venenatis.
+\end{itemize}
+\end{frame}
 
+\begin{frame}[allowframebreaks]{References}
 \end{frame}
 
 \end{document}
